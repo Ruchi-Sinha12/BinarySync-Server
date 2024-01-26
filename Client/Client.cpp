@@ -1,16 +1,3 @@
-/********************* COPYRIGHT SSS 2023-2024 ******************
- ** MODULE  :  Client.cpp
- **
- ** PURPOSE :  Solution for Class CTcpClient
- **
- ** PROJECT :  Internship Programme
- **
- ** HISTORY :  25.12.2023 - Initial Version
- **
- ** VERSION :  1.0 
- **
- ** AUTHOR  :  Ruchi
- **************************************************************/
 
 #include "Client.h"
 
