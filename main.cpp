@@ -1,16 +1,3 @@
-/********************* COPYRIGHT SSS 2023-2024 ****************************
- ** MODULE  :  main.cpp
- **
- ** PURPOSE :  main file to control the console
- **
- ** PROJECT :  Internship Programme
- **
- ** HISTORY :  25.12.2023 - Initial Version
- **
- ** VERSION :  1.0 
- **
- ** AUTHOR  :  Ruchi
- *************************************************************************/
 
 #include "Client.h"
 
@@ -23,7 +10,7 @@ int main()
         return 1;
     }
 
-    tcpClient.SendFile("E:\\Synergy program\\test.txt");
+    tcpClient.SendFile("E:\\test.txt");
     tcpClient.ReceiveResult();
 
     system("pause");
