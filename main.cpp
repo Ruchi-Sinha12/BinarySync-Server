@@ -12,19 +12,19 @@
  ** AUTHOR  :  Ruchi
  *************************************************************************/
 
-#include "Server.h"
+#include "Client.h"
 
 int main() 
 {
-	/*
-	 * Create an instance of the CTcpServer class, specifying the port number (12345)
-	 */
-    CTcpServer tcpServer(12345);
+    CTcpClient tcpClient(12345);
 
-	/*
-	 * Start listening for incoming client connections
-	 */
-    tcpServer.StartListening();
+    if (!tcpClient.Connect("127.0.0.1")) 
+	{
+        return 1;
+    }
+
+    tcpClient.SendFile("E:\\Synergy program\\test.txt");
+    tcpClient.ReceiveResult();
 
     system("pause");
     return 0;
