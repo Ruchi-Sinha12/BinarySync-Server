@@ -1,16 +1,4 @@
-/********************* COPYRIGHT SSS 2023-2024 ****************************
- ** MODULE  :  Server.cpp
- **
- ** PURPOSE :  Solution for Class CTcpServer
- **
- ** PROJECT :  Internship Programme
- **
- ** HISTORY :  25.12.2023 - Initial Version
- **
- ** VERSION :  1.0 
- **
- ** AUTHOR  :  Ruchi
- *************************************************************************/
+
 #include "Server.h"
 
 /*---------------------------------------------------------------------------
